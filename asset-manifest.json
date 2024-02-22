@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/mondia_langues/static/css/main.fdffbfa2.css",
-    "main.js": "/mondia_langues/static/js/main.8321affe.js",
+    "main.css": "/mondia_langues/static/css/main.d42820e9.css",
+    "main.js": "/mondia_langues/static/js/main.a96e9187.js",
     "static/js/787.52107271.chunk.js": "/mondia_langues/static/js/787.52107271.chunk.js",
     "static/media/témoignages_étudiants.pdf": "/mondia_langues/static/media/témoignages_étudiants.ff32dec1b0bb8723dd6e.pdf",
     "static/media/règlement_livret_accueil.pdf": "/mondia_langues/static/media/règlement_livret_accueil.79a763a4575111fd90a0.pdf",
-    "static/media/Bat_1.JPG": "/mondia_langues/static/media/Bat_1.81dedc9820141af5f0df.JPG",
     "static/media/2.webp": "/mondia_langues/static/media/2.ae1b445a49fc45e4cd65.webp",
     "static/media/3.webp": "/mondia_langues/static/media/3.40743e7ff72b3a515dbb.webp",
     "static/media/formateur_5.jpg": "/mondia_langues/static/media/formateur_5.e90b1dd17e1c06d4d8b1.jpg",
@@ -13,6 +12,7 @@
     "static/media/formateur_2.webp": "/mondia_langues/static/media/formateur_2.625332f7798271bad293.webp",
     "static/media/formateur_3.webp": "/mondia_langues/static/media/formateur_3.2c9a139236b72963bd8c.webp",
     "static/media/formateur_4.webp": "/mondia_langues/static/media/formateur_4.a25ebe4c276df7ed8b27.webp",
+    "static/media/Bat_1.webp": "/mondia_langues/static/media/Bat_1.86d7919865dbe1d72ebf.webp",
     "static/media/6.webp": "/mondia_langues/static/media/6.07b31a7de7f0dc050143.webp",
     "static/media/formateur_1.webp": "/mondia_langues/static/media/formateur_1.a33232fb89b5d9fe95bc.webp",
     "static/media/9.webp": "/mondia_langues/static/media/9.53d42f0d897f4981ea50.webp",
@@ -22,22 +22,24 @@
     "static/media/8_mini.webp": "/mondia_langues/static/media/8_mini.f462e8ee7322bd38b261.webp",
     "static/media/presentation.webp": "/mondia_langues/static/media/presentation.442494909cdbe86f7bf0.webp",
     "static/media/test.jpg": "/mondia_langues/static/media/test.808302ff70947eee7c7d.jpg",
+    "static/media/logo_qualiopi.webp": "/mondia_langues/static/media/logo_qualiopi.0ff4bb56cdd580d88707.webp",
     "static/media/3_mini.webp": "/mondia_langues/static/media/3_mini.fb0396e8bb31a20f4e2a.webp",
     "static/media/logo_mondia_langues.webp": "/mondia_langues/static/media/logo_mondia_langues.171cf8fa48096e7b6d74.webp",
     "static/media/TOEIC_2024.png": "/mondia_langues/static/media/TOEIC_2024.58ade9ad12294c555ae3.png",
     "static/media/7.webp": "/mondia_langues/static/media/7.d43ac886809d5fa80dd4.webp",
     "static/media/TCF_2024.png": "/mondia_langues/static/media/TCF_2024.b48455256fe1b2051038.png",
+    "static/media/image10.webp": "/mondia_langues/static/media/image10.274901bf3ee5fe4c37e7.webp",
     "static/media/10.webp": "/mondia_langues/static/media/10.d5eb4979b33632150298.webp",
     "static/media/logo_facebook.webp": "/mondia_langues/static/media/logo_facebook.ef57c3d4b53d5113c783.webp",
     "static/media/logo instagram.png": "/mondia_langues/static/media/logo instagram.5728b7be45fc143b27b0.png",
     "static/media/logo_twitter.avif": "/mondia_langues/static/media/logo_twitter.f13a0b8de0a4b9cfcf59.avif",
     "index.html": "/mondia_langues/index.html",
-    "main.fdffbfa2.css.map": "/mondia_langues/static/css/main.fdffbfa2.css.map",
-    "main.8321affe.js.map": "/mondia_langues/static/js/main.8321affe.js.map",
+    "main.d42820e9.css.map": "/mondia_langues/static/css/main.d42820e9.css.map",
+    "main.a96e9187.js.map": "/mondia_langues/static/js/main.a96e9187.js.map",
     "787.52107271.chunk.js.map": "/mondia_langues/static/js/787.52107271.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdffbfa2.css",
-    "static/js/main.8321affe.js"
+    "static/css/main.d42820e9.css",
+    "static/js/main.a96e9187.js"
   ]
 }
