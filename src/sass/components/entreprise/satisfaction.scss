@@ -1,0 +1,116 @@
+.white_big_part {
+
+    @include flex_column_center;
+    position: relative;
+
+    &_temoignages_students {
+        @include flex_column_center;
+        
+       
+
+        li {
+           list-style-type: none;
+        }
+    }
+}
+
+@media (max-width: 780px) {
+
+    .white_big_part {
+        
+        &_temoignages_students {
+            padding-right: 1rem;
+            font-size: 20px;
+
+            h2 {
+                font-size: 28px;
+                padding-left: 2rem
+            }
+        }
+
+        
+    }
+}
+
+.div_temoignages {
+    @include flex_column_center;
+
+
+    &_link {
+        color: $color_text_on_white;
+        text-align: center;
+        font-size: 34px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 80%;
+        padding: 1rem;
+        text-decoration: none;
+        border: 2px black solid;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+}
+
+@media (max-width : 780px) {
+    
+    .div_temoignages {
+        
+        
+        &_link {
+            font-size: 22px;
+            
+        }
+    
+}}
+
+.div_table_satisfaction {
+    @include flex_column_center;
+    justify-content: center;
+    background-color: $background_color_temoignages;
+    width: 70%;
+    height: fit-content;
+    border-radius: 20px;
+    margin-top: -120px;
+    font-size: 24px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+    }
+    .tableau {
+        
+        border-collapse: separate;
+        border-spacing: 15px;
+        width: 80%;
+        margin: 2.5rem;
+        text-align: center;
+
+    }
+
+    @media (max-width : 1200px) {
+        .tableau {
+            font-size: 18px;
+            margin: 1rem;
+    }}
+
+    @media (max-width : 890px) {
+
+        .div_table_satisfaction {
+            width: 90%;
+        }
+
+        .tableau {
+            font-size: 16px;
+            margin: 0.5rem;
+    }}
+
+    @media (max-width : 630px) {
+
+        .div_table_satisfaction {
+            width: 100%;
+        }
+    }
+
+    @media (max-width : 580px) {
+
+        .div_table_satisfaction {
+            display: none;
+        }
+    }

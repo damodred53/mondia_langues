@@ -1,0 +1,23 @@
+.whitebar {
+    height: 15rem;
+    position: relative;
+
+}
+
+.div_firstinstance {
+@include flex_column_center;
+justify-content: center;
+}
+
+.title_firstinstance {
+color: $color_text_on_white;
+font-size: 35px;
+margin-bottom: 0%;
+    
+}
+
+.paragraph_firstinstance {
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

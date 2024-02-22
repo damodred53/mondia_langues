@@ -1,0 +1,57 @@
+.div_carousel {
+    background-color: $color_square;
+    border-top: 2px black solid;
+}
+
+.image_background_carousel {
+    @include flex_row_space_around;
+    position: relative;
+}
+
+.image_carousel2{
+    width: 250%;
+    height: 70%;
+    border-radius: 10px;
+    border-radius: 20px;
+    img {
+        width: 50%;
+        object-fit: cover;
+    }
+}
+@media (min-width : 1550px) {
+    .image_carousel2 {
+        height: 70%;   
+    }
+}
+
+.carousel_display {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    
+    img {
+        width:20%;
+        object-fit: cover;
+    }
+
+    div {
+        width: 50%;
+        font-size: 40px;
+    }
+}
+
+.buttons_logement2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        width: 25px;
+        height: 100%;
+    }
+}

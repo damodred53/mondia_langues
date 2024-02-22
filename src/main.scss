@@ -1,0 +1,40 @@
+
+
+/* Import des fichiers Sass de base pour le site web */
+@import './sass/base/base.scss';
+@import './sass/base/typo.scss';
+
+/* Import des mixins de Sass */
+@import './sass/abstracts/mixin.scss';
+@import './sass/abstracts/variables.scss';
+
+/* import des components de Sass */
+@import './sass/components/landingpage/carousel.scss';
+@import './sass/components/landingpage/dark_bar.scss';
+@import './sass/components/landingpage/white_bar.scss';
+@import './sass/components/landingpage/little_square.scss';
+@import './sass/components/landingpage/big_squares.scss';
+@import './sass/components/landingpage/reverse_white_bar.scss';
+@import './sass/components/landingpage/reverse_big_squares.scss';
+@import './sass/components/landingpage/reversesquare.scss';
+@import './sass/components/qui-sommes-nous/picture_mondiaLangues.scss';
+@import './sass/components/qui-sommes-nous/histoire_mondiaLangues.scss';
+@import './sass/components/qui-sommes-nous/carousel_qui_sommes_nous.scss';
+@import './sass/components/traduction/medium_square.scss';
+@import './sass/components/entreprise/satisfaction.scss';
+@import './sass/components/entreprise/bigsquare.scss';
+@import './sass/components/entreprise/littesquare4.scss';
+@import './sass/components/formation/medium_square.scss';
+@import './sass/components/formation/empty_white_bar.scss';
+
+@import './sass/components/contact/contact.scss';
+
+
+/* Import des fichiers Sass pour les layouts */
+@import './sass/layout/header.scss';
+@import './sass/layout/footer.scss';
+@import './sass/layout/menu_hidden.scss';
+
+/* import des fichiers Sass pour les pages */
+@import './sass/pages/traduction.scss';
+

@@ -1,0 +1,44 @@
+
+.list_link {
+    list-style-type: none;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*padding-left: 2rem;*/
+    a {
+        color: $color_text_on_white;
+        text-decoration: none;
+        font-size: 24px;
+        
+
+    }
+    a:hover {
+        font-weight: bold;
+    }
+
+    &_network {
+        width: 70%;
+        height: 70%;
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width: 780px) {
+
+    .list_link_network {
+        width: 40%;
+    }
+}
+
+// css pour les liens pour télécharger les calendriers d'examens.
+
+.space {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    margin-top: 0%;
+}
+.file_calendar {
+    text-decoration: none;
+    color: black;
+}

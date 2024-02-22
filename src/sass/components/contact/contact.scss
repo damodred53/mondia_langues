@@ -1,0 +1,17 @@
+.div_formation_title_adresse {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media (max-width: 940px) {
+    
+    .div_formation_title_adresse {
+        font-size: 16px;
+    }
+    
+    
+}
+
+.contact_coordonnées {
+    max-height: 150px;
+}

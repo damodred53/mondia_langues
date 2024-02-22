@@ -1,0 +1,22 @@
+.reversebigsquare {
+
+    background-color: $color_square;
+    width: 40%;
+   height: 100%;
+    position: absolute;
+    left: 10%;
+    top: -130px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+@media (max-width: 780px) {
+
+    .reversebigsquare {
+
+        left: 0%;
+        top: 0%;
+        padding: 0%!important;
+        width: 100%;
+        box-shadow: none;
+    }
+}

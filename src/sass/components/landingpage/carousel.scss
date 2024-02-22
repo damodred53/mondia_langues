@@ -1,0 +1,66 @@
+.carousel {
+    height: 350px;
+    width: 100%
+
+}
+
+@media (min-width : 1550px) {
+    .carousel {
+        height: 550px;
+    }
+}
+
+@media (max-width : 1000px) {
+    .carousel {
+       display: none;
+    }
+}
+
+.pictureBackground{
+    height: 100%;
+    width: 100%
+}
+
+.image_background_carousel{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 46%;
+    position: relative;
+    width: 100%;
+    
+}
+
+.buttons_logement{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.button_logement {
+    margin: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    &_black {
+        background-color: rgba(0, 0, 0, 0.4);
+        margin: 2rem;
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+}
+
+.index_picture_logement{
+    color: $color_text;
+    position: absolute;
+    bottom: 0%;
+    left: 47%;
+    font-size: 25px;
+    border: 2px black solid;
+    padding: 1rem;
+    background-color: rgba($color: #000000, $alpha: 0.4)
+}

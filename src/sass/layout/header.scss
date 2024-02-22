@@ -1,0 +1,185 @@
+.header {
+    background-color: $background_color;
+    width: auto;
+    height: 280px;
+    display: flex;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    &_title_navbar {
+        @include flex_column_center;
+        width: 80%;
+        
+    }
+
+    &_navbar {
+        width: 90%;
+        color : white;
+        padding-left: 5rem;
+
+        a {
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0%;
+            margin: 0%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 2rem;
+
+        }
+
+        li {
+            font-size: 24px;
+            font-weight: bold;
+
+        }
+
+        
+    }
+    
+
+    img {
+    width: 15%;
+    border: solid black 4px;
+    margin: 1.5rem;
+    border-radius: 20px;
+    }
+
+    
+
+}
+
+@media (min-width : 1550px) {
+    .header img {
+        width: 12%;
+    }
+}
+
+@media (max-width : 1250px) {
+    .header {
+
+        &_navbar {
+
+            li {
+                font-size: 18px;
+            }
+    }
+}
+}
+
+@media (max-width : 991px) {
+    .header {
+
+        &_title_navbar {
+            width: 65%;
+        }
+        padding-bottom: 2rem;
+        &_navbar {
+
+            ul {
+                grid-template-columns: 1fr 1fr;    
+            }
+    }
+    img {
+        width: 20%;
+    }
+}
+}
+
+@media (max-width : 991px) {
+    .header {
+        &_navbar {
+
+            ul {
+                display: none;
+            }
+    }
+}
+}
+/* Gestion de l'icone du menu burger et du header pour les petits écrans */
+
+.menu_burger_icon {
+    width: 3rem;
+    height: 3rem;
+    display: none;
+    border: white 1px solid;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+@media (max-width: 991px) {
+
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        img {
+            width: 30%;
+    }}
+
+    .menu_burger_icon {
+        display: block;
+    }
+
+    .header_title_navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 30px;
+        }
+    }
+
+    .header_title_navbar {
+        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header_navbar {
+        width: auto;
+        padding: 0%;
+    }
+
+    
+}
+
+@media (max-width : 726px) {
+    .header_title_navbar {
+
+        h1 {
+            font-size: 25px;
+        }
+    }
+}
+
+@media (max-width : 580px) {
+    .header {
+
+        img {
+            width: 40%;
+    }}
+}
+
+/* gestion du logo qualiopi */
+
+.logo_qualiopi {
+    position: absolute;
+    right: 1rem;
+    top: 5rem;
+    max-width: 10rem;
+}
+
+@media (max-width : 1520px) {
+    .logo_qualiopi {
+       display : none
+    }
+}
+
