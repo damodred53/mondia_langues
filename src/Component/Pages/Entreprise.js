@@ -3,12 +3,14 @@ import Header from "../header";
 import Footer from "../footer";
 import Carousel from "../Carousel";
 import DarkBarEntreprise from "../Entreprise/DarkBarEntreprise";
+import DarkBarEntreprise2 from "../Entreprise/DarkBarEntreprise2";
 import WhiteBarEntreprise from "../Entreprise/WhiteBarEntreprise";
 import WhiteBarEntreprise2 from "../Entreprise/WhiteBarEntreprise2";
 import TemoignagesStagiaires from "../../témoignages_étudiants.pdf";
 import WhiteBarEntreprise3 from "../Entreprise/WhiteBarEntreprise3";
 import EmptyWhiteBarEntreprise from "../Entreprise/EmptyWhiteBarQuiSommesNous";
 import WhiteBarEntreprise4 from '../Entreprise/WhiteBarEntreprise4';
+
 
 const Entreprise = () => {
   return (
@@ -24,7 +26,7 @@ const Entreprise = () => {
       <WhiteBarEntreprise3 />
       <DarkBarEntreprise />
       <WhiteBarEntreprise4 />
-      <DarkBarEntreprise />
+      <DarkBarEntreprise2 />
       <section className="white_big_part">
         <div className="div_table_satisfaction">
           <table className="tableau">

@@ -17,8 +17,8 @@ const WhiteBarQualiopi = () => {
                     </p>
                 </div> 
             </div>
-                <div className="square">
-                    <img src={Qualiopi} alt="logo du certifcat qualiopi"></img>
+                <div className="square ">
+                    <img src={Qualiopi} className="not_reduced_picture" alt="logo du certifcat qualiopi"></img>
                 </div>
         </div>
     )

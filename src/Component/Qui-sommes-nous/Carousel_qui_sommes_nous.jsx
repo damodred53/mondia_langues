@@ -22,7 +22,7 @@ const Carousel2 = () => {
 
     const arrayBiographie = [
         "Kieran McCarthy fondateur et directeur de Mondia-Langues - Formateur d'anglais", "Alexis McDonald Assistant de direction - Formateur d'anglais", "  Pauline Gibon - Formatrice d'espagnol",
-        "Florent Guyard - Formatrice de français FLE", "Andrea Trapnell - Formatrice d'anglais"
+        "Florent Guyard - Formateur de français FLE", "Andrea Trapnell - Formatrice d'anglais"
     ];
 
   const [index, setIndex] = useState(0);

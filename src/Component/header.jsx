@@ -45,12 +45,12 @@ const Header = () => {
                 <nav className="header_navbar">
                     <ul className="header_navbar_list">
 
-                        <li><Link to="/" >Accueil</Link></li>
-                        <li><Link to="/presentation" >Qui sommes-nous ?</Link></li>
-                        <li><Link to="/formation" >Votre formation</Link></li>
-                        <li><Link to="/traduction" ><small>Traduction/Interprétation</small></Link></li>
-                        <li><Link to="/entreprise" >Vie de l'entreprise</Link></li>
-                        <li><Link to="/contact" >Contact</Link></li>
+                        <li><Link to="/" ><span>Accueil</span></Link></li>
+                        <li><Link to="/presentation" ><span>Qui sommes-nous ?</span></Link></li>
+                        <li><Link to="/formation" ><span>Votre formation</span></Link></li>
+                        <li><Link to="/traduction" ><span><small>Traduction/Interprétation</small></span></Link></li>
+                        <li><Link to="/entreprise" ><span>Vie de l'entreprise</span></Link></li>
+                        <li><Link to="/contact" ><span>Contact</span></Link></li>
                         
                     </ul>
                     <img className="logo_qualiopi" src={qualiopi} alt="logo du label qualiopi"></img>

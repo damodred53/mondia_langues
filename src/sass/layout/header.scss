@@ -9,7 +9,6 @@
     &_title_navbar {
         @include flex_column_center;
         width: 80%;
-        
     }
 
     &_navbar {
@@ -30,29 +29,36 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             row-gap: 2rem;
-
         }
 
         li {
             font-size: 24px;
             font-weight: bold;
-
+            text-transform: capitalize;
+           
+        }
+        span {
+            
+            border: white 1px solid;
+            border-radius: 20px;
+            padding: 0.7rem;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
         }
 
         
     }
     
-
     img {
     width: 15%;
     border: solid black 4px;
     margin: 1.5rem;
     border-radius: 20px;
     }
-
-    
-
 }
+
+/*.header_navbar_list li:hover {
+    border-bottom: 1px white solid;
+}*/
 
 @media (min-width : 1550px) {
     .header img {
@@ -146,7 +152,9 @@
     .header_navbar {
         width: auto;
         padding: 0%;
+
     }
+    
 
     
 }
@@ -163,9 +171,23 @@
 @media (max-width : 580px) {
     .header {
 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
         img {
-            width: 40%;
+            width: 35%;
+            height: 50%;
     }}
+
+    .header_title_navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            font-size: 25px;
+        }
+    }
 }
 
 /* gestion du logo qualiopi */

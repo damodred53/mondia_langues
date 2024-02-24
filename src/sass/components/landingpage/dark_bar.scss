@@ -3,3 +3,9 @@
     height: 15rem;
     position: relative;
 }
+
+@media (max-width: 580px) {
+    .bare_to_disappear {
+        max-height: 0px;
+    }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 
-const DarkBarEntreprise = () => {
+const DarkBarEntreprise2 = () => {
 
 
 
@@ -12,4 +12,4 @@ const DarkBarEntreprise = () => {
 
     )
 }
-export default  DarkBarEntreprise
+export default  DarkBarEntreprise2

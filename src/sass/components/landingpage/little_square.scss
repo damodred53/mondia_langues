@@ -1,6 +1,5 @@
 .square {
     background-color: $color_square;
-
     width: 25%;
     height: 100%;
     position: absolute;
@@ -20,9 +19,17 @@
         top: -100%;
         left: 0%;
         width: 100%;
+        box-shadow: none;
     }
     
     
+}
+// gestion de l'image Qualiopi pour la rendre visible tout le temps peu import les dimensions de l'écran.
+
+@media (max-width : 1550px) {
+    .not_reduced_picture {
+        object-fit:scale-down!important;
+    }
 }
 
 /* Carré de la page de contact */
